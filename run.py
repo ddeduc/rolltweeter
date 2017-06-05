@@ -230,7 +230,7 @@ def send(api):
 			bias.addToMean(extra)
 			bias.addToMean(extra)
 
-		# Format messgae.
+		# Format message.
 		mean, N = bias.getMean()
 		if N > 0:
 			message += "\n\nAverage of %d is %.2f." % (N, mean)
